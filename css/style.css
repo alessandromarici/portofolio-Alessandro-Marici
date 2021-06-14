@@ -320,6 +320,9 @@ a{
 .fa-js{
     color: #f9ca31;
 }
+.fa-shopify {
+    color: #64943E;
+}
 .progress-line{
     position: relative;
     height: 5px;
@@ -361,6 +364,9 @@ a{
 }
 .progress-line.css span{
     width:40%;
+}
+.progress-line.shopify span{
+    width:65%;
 }
 .progress-line span::before{
     position: absolute;
@@ -412,6 +418,9 @@ a{
 .progress-line.css span::after{
     content:'40%';
 }
+.progress-line.shopify span::after{
+    content:'65%';
+}
 /*Service---------------------*/
 #portfolio{
     display: flex;
@@ -449,7 +458,9 @@ a{
 .portfolio-box-5,
 .portfolio-box-6,
 .portfolio-box-7,
-.portfolio-box-8 {
+.portfolio-box-8,
+.portfolio-box-9,
+.portfolio-box-10 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -462,7 +473,9 @@ a{
 .portfolio-box-5 h4,
 .portfolio-box-6 h4,
 .portfolio-box-7 h4,
-.portfolio-box-8 h4 {
+.portfolio-box-8 h4,
+.portfolio-box-9 h4,
+.portfolio-box-10 h4 {
     width: 100%;
     font-size: 1.2rem;
     font-weight: 400;
@@ -477,7 +490,9 @@ a{
 .portfolio-box-5 p,
 .portfolio-box-6 p,
 .portfolio-box-7 p,
-.portfolio-box-8 p {
+.portfolio-box-8 p,
+.portfolio-box-9 p,
+.portfolio-box-10 p {
     width: 100%;
     color: #ffffff;
     font-size: 0.95rem;
@@ -491,7 +506,9 @@ a{
 .portfolio-box-5 a,
 .portfolio-box-6 a,
 .portfolio-box-7 a,
-.portfolio-box-8 a {
+.portfolio-box-8 a,
+.portfolio-box-9 a,
+.portfolio-box-10 a {
   width: 100%;
   margin-bottom: 5px;
 }
@@ -502,7 +519,9 @@ a{
 .portfolio-box-5 img,
 .portfolio-box-6 img,
 .portfolio-box-7 img,
-.portfolio-box-8 img {
+.portfolio-box-8 img,
+.portfolio-box-9 img,
+.portfolio-box-10 img {
        width: 100%;
        border-radius: 10px;
       -webkit-filter: brightness(50%);
@@ -519,7 +538,9 @@ a{
 .portfolio-box-5 img:hover,
 .portfolio-box-6 img:hover,
 .portfolio-box-7 img:hover,
-.portfolio-box-8 img:hover {
+.portfolio-box-8 img:hover,
+.portfolio-box-9 img:hover,
+.portfolio-box-10 img:hover {
      -webkit-filter: brightness(100%);}
 
 .desc {
